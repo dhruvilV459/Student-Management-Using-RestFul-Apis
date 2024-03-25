@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: powderblue;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+    margin-top: 0;
+    flex:1;
+    padding:0;
+    background: #000;
+}
+
+.signup-form {
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-top:50px;
+    padding-left: 50px;
+    /* width: 500px; */
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    display: inline-block;
+    /* text-align: center; */
+
+}
+
+.signup-form h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="submit"] {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.parent{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex:1;
+    margin:0;
+    border:0;
+}
+.image1{
+    display: flex;
+    flex: 1;
+    background-color: #333;
+    margin:0;
+    padding:0;
+    background-size: contain;
+    border:0;
+    padding-right:10px;
+}
+img{
+    flex:1;
+    padding:0;
+    max-width: 100%;
+    max-height: 100%;
+    border:0;
+}

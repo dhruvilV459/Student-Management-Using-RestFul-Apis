@@ -1,111 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Inventory</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        .header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            width: 100px;
-            height: auto;
-        }
-
-        .login-form {
-            display: flex;
-            align-items: center;
-        }
-
-        .login-form input[type="text"],
-        .login-form input[type="password"] {
-            padding: 5px;
-            margin-right: 10px;
-            border-radius: 5px;
-            border: none;
-        }
-
-        .login-button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 5px 10px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .login-button:hover {
-            background-color: #45a049;
-        }
-
-        .container {
-            display: flex;
-            justify-content: end;
-            align-items: center;
-            margin-top: 0;
-        }
-
-        .signup-form {
-            background-color: #f2f2f2;
-            padding: 20px;
-            border-radius: 5px;
-            width: 500px;
-            margin-top: 0;
-        }
-
-        .signup-form h2 {
-            margin-top: 0;
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        .form-group label {
-            display: block;
-            font-weight: bold;
-        }
-
-        .form-group input[type="text"],
-        .form-group input[type="password"],
-        .form-group input[type="email"],
-        .form-group input[type="submit"] {
-            width: 80%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-
-        .form-group input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-        .form-group input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        .parent{
-            display: inline-flex;
-            width: 100%;
-            justify-content: space-between;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/index.css">
 </head>
+
 <body>
     <div class="header">
         <h3>Student Inventory</h3>
@@ -116,31 +18,32 @@
         </form>
     </div>
     <div class="parent">
-        
-    <div>
-        <img src="https://5.imimg.com/data5/SELLER/Default/2023/10/355415575/ML/WE/OU/3497104/student-management-software-500x500.png" style="max-width: 700px;" />
+
+        <div class="image1">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2023/10/355415575/ML/WE/OU/3497104/student-management-software-500x500.png" />
+        </div>
+        <div class="container">
+            <form class="signup-form">
+                <h2>Sign Up</h2>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+
     </div>
-    <div class="container">
-        <form class="signup-form">
-            <h2>Sign Up</h2>
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Sign Up">
-            </div>
-        </form>
-    </div>
-    
-</div>
 </body>
+
 </html>
